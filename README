@@ -5,9 +5,9 @@ Then I flipped the connection around so that I could actually fly the helicopter
 
 All it takes is an FTDI USB to 3.3v TTL serial board, three wires, and some basic soldering skills. Its easier though if you can find an extra MLP4DSM controller to butcher. I got one for $15 on ebay.
 
-The app is pretty messy. It was written mostly on one Saturday, fighting sleep to quench my curiosity.
+The app is pretty messy. It was written mostly on one Saturday, fighting sleep to quench my curiosity. I'd like to see someone with more skill really make something nice out of it, but in the meantime I'll be messing with it when I can. Oh, and you'll also need the FTSerial driver, that you can find on my GitHub. Its the same as the original one from ksksue but I added the 125000 baud rate for the blade.
 
-I'll add more info soo, but there is some useful info here:
+I'll add more info soon, but there is some useful info here:
 
 I got most of my info from the following places:
 
