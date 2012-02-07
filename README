@@ -1,4 +1,27 @@
 Hello! 
 
-This is a new project for controlling your Blade helicopter with any Android 3.1+ device. This includes most tablets, and the Galaxy Nexus. Notably, the Galaxy Tab 10.1 seems to lack the appropriate kernel support for generic USB hosting.
+I modified the MLP4DSM controller that came with my Blade mSR X helicopter so that I could read it with my Android phone (Galaxy Nexus, but anything with 3.1+ will work, except for the Samsung Galaxy Tab 10.1, which has some issue reading generic USB devices.)
 
+All it takes is an FTDI USB to 3.3v TTL serial board, three wires, and some basic soldering skills.
+
+I got most of my info from the following places:
+
+Initial confirmation of the idea, and some pics of the wireless board:
+http://www.gizmowatch.com/entry/how-to-build-a-remote-controlled-helicopter/
+
+Serial Data Format:
+http://www.rcgroups.com/forums/showthread.php?t=721024
+
+Android FTDI library:
+https://github.com/ksksue/FTDriver
+
+USB Host mode adapter for the Galaxy Nexus is here:
+http://www.amazon.com/gp/product/B005FUNYSA/ref=oh_o00_s00_i01_details
+
+Same for Samsung Tablets is here:
+http://www.amazon.com/gp/product/B005YWIRBS/ref=oh_o01_s00_i00_details
+But note that the 10.1 refuses to see these devices, so it will not work with that. I've messed extensively with it and it looks like it would need a new kernel at best. I've tried a few aftermarket kernels with no success so far. The new Galaxy Tab 7+ works though!
+
+FTDI adapter like the following is perfect:
+http://www.sparkfun.com/products/9873
+Mine was the 5v version but they provide a jumper you can cut and solder in a different spot to convert to 3.3v. Thanks Sparkfun!
