@@ -162,6 +162,7 @@ public class BladeAndroidControlActivity extends Activity {
 			}
 		});
         
+        
         l2.setOnTouchListener(new View.OnTouchListener() {
 			
 			@Override
