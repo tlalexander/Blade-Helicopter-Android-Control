@@ -42,7 +42,7 @@ public class BladeAndroidControlActivity extends Activity {
 	private boolean mStop=false;
 	private boolean mStopped=false;
 	private boolean dataPaused=true;	
-	private boolean bind=false;
+	private boolean bind=true;
 
 	private String mText;
 	
