@@ -1,7 +1,7 @@
 Hello! 
 
 I modified the MLP4DSM controller that came with my Blade mSR X helicopter so that I could read it with my Android phone (Galaxy Nexus, but anything with 3.1+ will work, except for the Samsung Galaxy Tab 10.1, which has some issue reading generic USB devices.)
-Then I flipped the connection around so that I could actually fly the helicopter with the phone. This app will do either. Here's a video if it reading the controller: http://youtu.be/gq2x3DVq7gs
+Then I flipped the connection around so that I could actually fly the helicopter with the phone. This app will do either. Here's a video if it reading the controller: http://youtu.be/gq2x3DVq7gs 
 
 All it takes is an FTDI USB to 3.3v TTL serial board, three wires, and some basic soldering skills. Its easier though if you can find an extra MLP4DSM controller to butcher. I got one for $15 on ebay.
 
